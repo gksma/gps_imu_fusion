@@ -3,9 +3,7 @@ GPS 음영지역을 대비하기 위해 IMU를 이용하여 GPS + IMU 센서퓨�
 
 시스템 구조 :
 
----
-
-## Directory Tree
+```plaintext
 xsens/
 ├── CMakeLists.txt
 ├── package.xml
@@ -19,7 +17,6 @@ xsens/
 └── src/
     ├── gps_imu_fusion.cpp
     └── test_fake_sensors.cpp
-
----
+```
 
 블로그 : https://dhfz1794.tistory.com/43
